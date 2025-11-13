@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header {
+    background-color: #792e8c;
+    padding: 20px 0;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: color 0.4s ease;
+}
+
+.main-nav a:hover {
+    color: #74e3ff;
+        text-decoration: underline;
+}
+
+.main-nav a:focus {
+    outline: 2px solid #74e3ff;
+    outline-offset: 4px;
+}
+
+.hero {
+    background-color: #ff8afd;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-title:hover {
+    color: #d2f5ff;
+    transform: scale(1.02);
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 25px 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background-color: #be5ee1;
+    color: #ffffff;
+}
+
+.feature-card:nth-child(1) {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.feature-card:nth-child(1) h3, .feature-card:nth-child(1) p {
+    color: white;
+}
+
+.feature-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.feature-card {
+    min-width: 280px;
+}
+
+feature-icon {
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #e8f3f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.features { padding: 80px 0; background-color: #f8f9fa; }
+.section-title { text-align: center; font-size: 36px; }
+.section-subtitle { text-align: center; color: #7f8c8d; }
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    flex: 1;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
