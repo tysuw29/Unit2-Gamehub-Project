@@ -103,7 +103,7 @@ body {
 }
 
 .feature-card:nth-child(1) {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #d266ea 0%, #6a32a1 100%);
     color: white;
 }
 
