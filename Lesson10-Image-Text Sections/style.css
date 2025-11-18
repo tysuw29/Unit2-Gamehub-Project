@@ -256,3 +256,57 @@ p {
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
+
+.community {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.community-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.community-text {
+    flex: 1;
+}
+
+.community-image {
+    flex: 1;
+}
+
+.community-text {
+    color: #8d1f97;
+    margin-bottom: 25px;
+}
+
+.community-text p {
+    color: #c638cd;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.join-btn {
+    background: #866edc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.community-image img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.community-image img {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.community-content {
+    flex-direction: row-reverse;
+}
