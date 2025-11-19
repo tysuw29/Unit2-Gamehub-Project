@@ -315,3 +315,16 @@ p {
 .community-content {
     flex-direction: row-reverse;
 }
+
+.main-footer {
+    background: linear-gradient(135deg, #6b34a2 0%, #e879f0 100%);
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
